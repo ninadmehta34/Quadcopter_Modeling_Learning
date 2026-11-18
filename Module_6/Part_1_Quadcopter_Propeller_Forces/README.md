@@ -44,7 +44,7 @@ The model follows this sequence:
 
 ## 3. Results
 
-![Thrust_Altitude_Speed](Thrust_Altitude_Speed.png)
+![Thrust_Altitude_Speed](Thrust_Speed_Altitude.png)
 
 ## 4. Simulink Implementation
 
