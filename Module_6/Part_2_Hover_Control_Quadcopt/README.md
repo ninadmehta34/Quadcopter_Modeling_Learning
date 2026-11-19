@@ -144,7 +144,7 @@ With τ = 1 the last 1 to 2% (4.92 m to 5 m) still takes several seconds. This i
 
 p = 1.3 is the better compromise. It saves about a second to 95% and a few seconds on the tail while keeping margin from the limit.
 
-## Limitations and next steps
+## Limitations
 
 - Simulation only: no motor lag, sensor noise, delay or drag. Hover rpm (≈ 4000) is inferred from the simulation.
 - τ should come from the vehicle's climb-rate limit on hardware: τ ≥ A / v_max. The best τ depends on the step size A.
