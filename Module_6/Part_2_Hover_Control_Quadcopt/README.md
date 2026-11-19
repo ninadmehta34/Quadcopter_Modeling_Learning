@@ -76,7 +76,9 @@ This is a convenience, not an optimum. One speed knob, closed-form gains, no slo
 **Scaling law.** Substituting s = pσ cancels p³, so T(s) for any p is the p = 1 response with time compressed by p, $y_p(t) = y_1(pt)$. From the p = 1 step response
 $y(t) = 1 - e^{-t}(1 - 2t + t^2/2)$: overshoot 20.6% (peak at t = 3 − √3 = 1.27 s),
 
-$$t_s^{5\%} \approx \frac{2.7}{p}, \qquad t_s^{2\%} \approx \frac{5.6}{p}$$
+$$
+t_s^{5\\%} \\approx \\frac{2.7}{p}, \\quad t_s^{2\\%} \\approx \\frac{5.6}{p}
+$$
 
 | p | P | I | D | t_s (5%) |
 |---|---|---|---|---|
@@ -160,5 +162,6 @@ Run: open the model 'UAV_Hover_Sim_Ninad'.
 
 ## Credits
 
-The plant model animation block from an Online Course on "Introduction to Quadcopter Modeling & Simulation." by Pranav Lad and Dhruv Chandel. [https://github.com/MathWorks-Teaching-Resources/Quadcopter-Modeling-Simulation/tree/release#introduction-to-quadcopter-modeling--simulation]
+The plant model animation block from an Online Course on "Introduction to Quadcopter Modeling & Simulation." by Pranav Lad and Dhruv Chandel. [https://github.com/MathWorks-Teaching-Resources/Quadcopter-Modeling-Simulation/tree/release#introduction-to-quadcopter-modeling--simulation].
+
 My work: Hover dynamics and modeling, linearization, pole-placement design, the N and τ studies, the prefilter and the analysis.
